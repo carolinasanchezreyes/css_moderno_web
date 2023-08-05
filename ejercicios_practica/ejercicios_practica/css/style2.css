@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* podría ser también como viewport (height: 100vh) */
+    display: flex;
+    flex-direction: column; /* organizar todo en columnas */
+  }
+  
+  ul {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(72, 185, 185);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+main {
+    flex: 1; 
+    overflow: auto;
+    height: 60px;
+    font-size: 24px;
+  }
+
+.interactivo {
+    cursor: pointer;
+    transition: all ease-out 250ms;
+    }
+
+.interactivo:hover {
+    padding: 10px;
+    border-bottom: 3px hotpink;
+    }
+
+  #sectionEntrada {
+    background-color: khaki;
+    color: aliceblue;
+    font-size: 25px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #sectionLenguajes {
+    background-color: #aa8c2b;
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  article {
+    border-radius: 20px;
+    color: rgba(44, 59, 73, 0.329);
+    padding: 10px;
+  }
+
+  article .uno {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  article .dos {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  article .tres {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#sectionContacto {
+    background-color: #771fdb;
+    color: rgb(133, 136, 111);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  article .cuatro {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
